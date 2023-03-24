@@ -1,0 +1,84 @@
+/* Style the navigation bar */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Style the jumbotron */
+  .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  
+  /* Style the call-to-action button */
+  .jumbotron .btn {
+    background-color: #f4511e;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Style the heading and subheading in the jumbotron */
+  .jumbotron h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .jumbotron p {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Style the content section */
+  .container {
+    padding: 80px 120px;
+  }
+  
+  .container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .container p {
+    font-size: 24px;
+  }
+  
+  .container ul {
+    font-size: 24px;
+  }
+  
+  /* Style the contact form */
+  .container form {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+  
+  .container form label {
+    font-weight: bold;
+  }
+  
+  .container form input[type="text"],
+  .container form input[type="email"],
+  .container form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .container form button[type="submit"] {
+    background-color: #f4511e;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container form button[type="submit"]:hover {
+    background-color: #ff7043;
+  }
+  

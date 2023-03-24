@@ -1,0 +1,104 @@
+/* Custom styles */
+
+.hero.bg-image{
+  /* Background image with linear gradient overlay */
+  /* background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../dependencies/ja\ morant.jpeg'); */
+  /* background-image: url(https://th.bing.com/th/id/OIP.ccd_zbuXuAgUPjil7aUorAHaLG?pid=ImgDet&rs=1); */
+  /* width: 100vw;
+  height: 100vw; */
+  background-image: url(wallhaven-eyojyr_2560x1440.png);
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+.hero {
+  /* Center the text vertically */
+  display: flex;
+  align-items: center;
+}
+
+.text-white {
+  /* Add some shadow to the text */
+  text-shadow: 1px 1px 2px black;
+}
+
+.btn-primary {
+  /* Change the primary button color */
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-primary:hover {
+  /* Change the primary button hover color */
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+.about {
+  /* Add some padding and margin to the about section */
+  padding: 50px 0;
+  margin-top: -50px;
+}
+
+.contact {
+  /* Add some padding and margin to the contact section */
+  padding: 50px 0;
+}
+
+.footer {
+  /* Add some padding and margin to the footer section */
+  padding: 50px 0;
+}
+
+/* Custom styles */
+/* Change the color of the social icons */
+/* .nav-link i {
+  color: #ffffff;
+} */
+
+/* Change the color of the YouTube icon */
+.fa-youtube {
+  color: #ff0000;
+}
+
+/* Change the color of the Facebook icon */
+.fa-facebook {
+  color: #1877f2;
+}
+
+/* Change the color of the Twitter icon */
+.fa-twitter {
+  color: #1da1f2;
+}
+
+/* Change the color of the Instagram icon */
+.fa-instagram {
+  color: #e1306c;
+}
+
+/* Change the primary button color to match YouTube */
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+/* Change the primary button hover color to a darker shade of red */
+.btn-primary:hover {
+  background-color: #cc0000;
+  border-color: #cc0000;
+}
+
+/* Change the text color to black for better contrast */
+.text-white {
+  color: #000000;
+}
+
+/* Add some margin to the subscribe button to avoid overlapping with the iframe */
+.subscribe-button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
