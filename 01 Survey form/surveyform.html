@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="text-center" id="title">Front-End Developer Survey</h1>
+        <p id="description">
+          Hello and Welcome to the front-end developer survey Please help us
+          make our systems better
+        </p>
+      </header>
+      <form action="" id="survey-form">
+        <div class="form-group">
+          <label class="form-control" for="name" id="name-label">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            class="form-control"
+            required
+          />
+          <label class="form-control" for="email" id="email-label"
+            >Email:</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            class="form-control"
+            required
+          />
+
+          <label class="form-control" id="number-label">Age:</label>
+          <input
+            type="number"
+            id="number"
+            min="10"
+            max="99"
+            placeholder="Age"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <p>Please select your current employment type.</p>
+          <select
+            title="employment-status"
+            name="role"
+            id="dropdown"
+            class="form-control"
+            required
+          >
+            <option disabled selected value>Select your current status</option>
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+            <option value="undecided">Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Would you like to learn more skills?</p>
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              value="yes"
+              name="y/n"
+              required
+            />Yes
+          </label>
+
+          <label>
+            <input
+              type="radio"
+              id="No"
+              class="input-radio"
+              value="no"
+              name="y/n"
+              required
+            />No</label
+          >
+          <label>
+            <input
+              type="radio"
+              id="some-other-time"
+              class="input-radio"
+              value="some-other-time"
+              name="other"
+            />Some other time.</label
+          >
+          <label>
+            <input
+              type="radio"
+              class="input-radio"
+              value="not-sure"
+              name="other"
+            />Not sure
+          </label>
+        </div>
+
+        <div class="form-group">
+          <p>What is your favourite learing platform</p>
+          <select
+            title="learning-platform"
+            name="platform"
+            id="learning-platform"
+            class="form-control"
+            required
+          >
+            <option disabled selected value="Select learning platform">
+              Select learning platform
+            </option>
+            <option value="freeCodeCamp">freeCodeCamp</option>
+            <option value="udemy">Udemy</option>
+            <option value="freeCodeCamp">Cousera</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Which of the following is very relevant to a front-end developer
+          </p>
+          <span class="clue">(select all that apply)</span>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="HTML"
+              required
+            />HTML
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="CSS"
+              required
+            />CSS
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="JavaScript"
+              required
+            />JavaScript
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="Bootstrap"
+              required
+            />Bootstrap
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="jQuery"
+              required
+            />jQuery
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="React"
+              required
+            />React
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              value="Redux"
+              class="input-checkbox"
+              required
+            />Redux
+          </label>
+          <label
+            ><input
+              type="checkbox"
+              name=""
+              class="input-checkbox"
+              value="other-tools-and-frameworks"
+              required
+            />Other tools and frameworks
+          </label>
+        </div>
+
+        <div class="form-group">
+          <p>Please provide feedback if there is any</p>
+          <textarea
+            name="feedback"
+            id="feedback"
+            cols="30"
+            rows="10"
+            placeholder="Enter your feedback here"
+            class="form-control"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-btn form-control">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

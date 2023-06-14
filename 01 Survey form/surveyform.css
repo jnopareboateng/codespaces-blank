@@ -1,0 +1,124 @@
+/* Root variables */
+:root {
+    --color-white: white;
+    --color-green: #16a085;
+    --color-black: black;
+    /* --bg-color: rgba(27, 30, 67, 0.8); */
+}
+
+/* Global styles */
+html {
+    display: block;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1rem;
+    color: var(--color-black);
+    background-image: linear-gradient(to right, #16a085, #3498db);
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 3.125rem auto 0 auto;
+}
+
+/* Header styles */
+.header {
+    display: block;
+    padding: 0 0.625rem;
+    margin-bottom: 1.85rem;
+}
+
+/* Text alignment styles */
+.text-center {
+    text-align: center;
+}
+
+/* Typography styles */
+h1,
+p {
+    margin: 0 auto 0.5rem auto;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+p {
+
+}
+
+.description {
+    font-style: italic;
+}
+
+/* Form styles */
+form {
+    align-items: center;
+    background-color: #2980b9;
+    display: block;
+    border-radius: 0.35rem;
+    padding: 2.5rem 0.625rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    background-clip: padding-box;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label {
+    display:flex; 
+   align-items:center; 
+   font-size :1.125rem; 
+   margin-bottom:.5rem
+}
+
+#submit {
+   background-color :var(--color-green); 
+   display :flex; 
+   justify-content:center; 
+   align-items:center
+}
+
+/* Input styles */
+input,
+textarea,
+select,
+button {
+   box-sizing:border-box; 
+   border-radius:.215rem; 
+   margin :0; 
+   font-family :inherit; 
+   font-size :inherit; 
+}
+.input-radio,.input-checkbox{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+::before,
+::after {
+   box-sizing:border-box; 
+}
+.clue{
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+}
+/* Media queries */
+@media (min-width:480px) {
+   form{
+      padding :2.5rem; 
+   }
+}
