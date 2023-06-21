@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi there! 👋 I’m a passionate Front-end Web Developer 💻 who is always eager to learn and grow 🌱. <br>Currently, I’m working on honing my skills in Front-end Web Development 🔧.<br>I am always on the lookout for exciting projects to collaborate on 👀.<br>I’m also expanding my knowledge by learning Object-Oriented Programming (OOP) for JavaScript 📚.<br>Let’s connect and create something amazing together! 🤝
+Hi there! 👋 I’m a passionate Front-end Web Developer 💻 who is always eager to learn and grow 🌱. <br>Currently, I’m working on honing my skills in Front-end Web Development and working on a few react projects🔧.<br>I am always on the lookout for exciting projects to collaborate on 👀.<br>Let’s connect and create something amazing together! 🤝
 
 
 ## 🌐 Socials:
